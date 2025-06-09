@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  /* Use the provided image as a full-screen background */
+  background-image:url("https://wallpaperaccess.com/full/1540016.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.app {
+  /* Add a subtle overlay to the app container for better text readability */
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box; /* Ensures padding doesn't add to the height */
+}
+
+.search {
+  margin: 20px auto;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffb700;
+}
+
+.weather-card {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  backdrop-filter: blur(5px); /* Adds a modern frosted glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Style for the large, dynamic weather icon */
+.weather-icon {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.details p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+.error {
+  color: #ffcccc;
+  background-color: rgba(255, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
