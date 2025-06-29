@@ -3,7 +3,7 @@ import WeatherCard from "./WeatherCard";
 import "./index.css";
 
 // It's best practice to store API keys in environment variables
-const API_KEY = "df78ef748fb90486c540c323244aa5e8";
+const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 function App() {
   const [city, setCity] = useState("");
